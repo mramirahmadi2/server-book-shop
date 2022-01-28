@@ -1,20 +1,39 @@
 {
   "products": [
     {
-      "name": "asus laptop",
-      "brand": "asus",
-      "image": "/files/3d545729eb7cdb3f85407805ec160740",
-      "price": "1000",
-      "createdAt": 1622901942857,
-      "id": 1
+      "firstName": "Maktab 63",
+      "brand": "microsoft",
+      "image": [
+        "65ddd8b1bbce4d8396b62611147fa1d6",
+        "65ddd8b1bbce4d8396b62611147fa1d6"
+      ],
+      "thumbnail": "65ddd8b1bbce4d8396b62611147fa1d6",
+      "price": "1500",
+      "count": 150,
+      "createdAt": 1643373068134,
+      "id": 4,
+      "category": {
+        "id": 14,
+        "name": "Laptop",
+        "icon": "65ddd8b1bbce4d8396b62611147fa1d6"
+      }
+    }
+  ],
+  "category": [
+    {
+      "id": 14,
+      "name": "Laptop",
+      "icon": "65ddd8b1bbce4d8396b62611147fa1d6"
     },
     {
-      "name": "apple laptop",
-      "brand": "apple",
-      "image": "/files/65ddd8b1bbce4d8396b62611147fa1d6",
-      "price": "2000",
-      "createdAt": 1622901942857,
-      "id": 2
+      "id": 16,
+      "name": "Laptop",
+      "icon": null
+    },
+    {
+      "name": "sssss",
+      "createdAt": 1643375019984,
+      "id": 17
     }
   ],
   "users": [
@@ -25,6 +44,7 @@
       "role": "admin"
     }
   ],
+  "orders": [],
   "protection": {
     "products.get": false,
     "orders.post": true,

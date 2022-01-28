@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "backend": "node server",
-    "backend:dev": "nodemon server"
+    "backend:dev": "nodemon server",
+    "backend:prod": "nodemon server"
   },
   "author": "Babak Khorrami",
   "license": "MIT",
